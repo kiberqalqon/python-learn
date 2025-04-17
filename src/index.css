@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  overflow: auto; /* scroll ishlayveradi */
+}
+
+/* Faqat ko'rinishini yo'q qiladi */
+body::-webkit-scrollbar {
+  display: none;
+}
